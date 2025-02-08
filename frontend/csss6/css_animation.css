@@ -1,0 +1,85 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+/*    
+    animation-name: fontanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay:0 ;
+    animation-iteration-count: 3;
+    animation-direction: normal; */
+
+
+    animation-name: multi;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay:0 ;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+
+}
+/* 
+ye font ka animation hai
+
+
+@keyframes fontanimation{
+    from{
+        font-size:20px;    
+    }
+    to{
+        font-size: 40px;
+    }
+} */
+
+
+/* 
+ye background ccolor ke liye hai */
+
+
+/* @keyframes bgcolor{
+    from{
+        background-color: black;    
+    }
+    to{
+       background-color: azure;
+    }
+}
+ */
+
+
+/*agar chate ho ek baar me do ya do se zada properties change ho to ek box me likh do
+*/
+
+
+
+@keyframes multi{
+    from{
+        width: 10px;
+        background-color: black; 
+        font-size: 10px;   
+
+    }
+    to{
+        width: 400px;
+       background-color: azure;
+       font-size: 50px;
+    }
+}
+
+
+@keyframes multi{
+    0%{
+       
+        background-color: black; 
+        font-size: 10px;  
+    }
+    50%{
+       background-color: azure;
+    
+    }
+    100%{
+        background-color: blue;
+    }
+}

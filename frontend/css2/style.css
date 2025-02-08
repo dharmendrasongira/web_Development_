@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+text-decoration: underline rebeccapurple;}
+
+#login{
+    background-color: aqua;
+}
+#signup{
+    background-color: aqua;
+}
+.follow{
+    text-decoration: none;
+    background-color: yellow;
+}
+div input{
+    background-color: bisque;
+}
+p+h3{
+    color: blue;
+}
+span >button{
+    background-color: green;
+}
+button[type=button]{
+    background-color: blue;
+}
+button:hover{
+    color: rgb(240, 239, 239);
+    font-weight: 700;
+}
+li >a:active{ color: darkred;}
+nav:nth-of-type(2n){
+    color: chocolate;
+}
+h1::first-letter{
+    font-weight: 900;
+    color: darkred;
+    font-size: 100px;
+}
+p::first-line{
+    color: aquamarine;
+}
+p::selection {
+  color: red;
+  background-color: yellow;
+}

@@ -1,0 +1,16 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(209, 105, 105);
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns:  auto auto;
+}
+.iteam{
+    width: 100px;
+    height: 50px;
+    background-color:olive ;
+    border: 2px solid black;
+    text-align: center;
+} 

@@ -1,0 +1,27 @@
+#container1{
+   
+    height: 300px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+       display:flex;
+       border: 2px solid black;
+       flex-direction:row ;
+       
+       align-items: flex-start;
+   
+   }
+#yello{
+    flex-grow: 1;
+}
+#blue{
+    flex-grow: 2;
+}
+#container1 div{
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size:1.5em;
+
+}

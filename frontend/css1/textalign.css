@@ -1,0 +1,15 @@
+h1{
+    text-align: left;
+}
+h2{
+    text-align: right;
+}
+h3 {
+    text-align: center;
+}
+h4{
+   text-align: justify;
+   border: solid;
+   width: 50%;
+   
+}

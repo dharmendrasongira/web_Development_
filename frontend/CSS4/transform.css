@@ -1,0 +1,50 @@
+span{
+    margin: 20px;
+}
+div{
+  width  :200px;
+  height :50px;
+  text-align: center;
+  background-color: azure;
+  border: 2px solid black;
+  margin: 10px;
+
+}
+
+div:nth-of-type(2n){
+    background-color: yellow;
+}
+div:nth-of-type(3n){
+    background-color: rgb(177, 11, 11);
+}
+
+
+/* tranform rotate */
+
+#one{
+    transform: rotate(90deg);
+}
+/* #two{
+    transform: scale(.5);
+} */
+ /* #two{
+    transform: scale(0.20,1.5);
+ } */
+  /* or */
+  #two{
+    transform:scaleX(2);
+  }
+  #two{
+    transform:scaley(2);
+  }
+
+
+  /* translate postion change karta hai */
+  #three{
+    transform: translate(50px,50px);
+  }
+/* 
+  transform skewed karna */
+  #four {
+    transform: skew(30deg);
+  }

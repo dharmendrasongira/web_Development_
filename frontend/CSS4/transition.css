@@ -1,0 +1,20 @@
+
+#acchi{
+    
+        height: 100px;
+        width:200px ;
+        background-color: aquamarine;
+        margin: 0 auto;        
+        margin-top: 10px;
+        transition: margin-top 3s linear .3s;
+
+
+        
+    
+}
+
+#acchi:hover{
+ margin-top: 400px;
+ background-color: rgb(215, 53, 80);
+
+}

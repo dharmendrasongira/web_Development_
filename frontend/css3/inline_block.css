@@ -1,0 +1,9 @@
+div{
+    /* agar inline lagate bus toh ye dikkat hai ki property jese height and width margin kam nahi karega */
+    display:inline-block;
+    height: 50  px;
+    width: 50px;
+ background-color: aquamarine;
+ border-width: 2px;
+border-style: solid;
+}

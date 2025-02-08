@@ -1,0 +1,53 @@
+#container{
+    height: 300px;
+    width: 50%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+
+}
+ h1{
+    text-align: center;
+ }
+ #container div{
+    height: 100px;
+    width: 300px;
+ color: aliceblue;
+text-align: center;
+font-size: 1.5em;
+}
+
+
+#new{
+
+
+     /* display flex se sare color box me fit ho jayenge  */
+     
+     display: flex;
+    position: relative;
+    left: 800px;
+    height: 100px;
+    width: 50%;
+    background-color: rgb(54, 143, 143);
+  margin: 100x;;
+    border: 2px solid black;
+
+}
+
+
+#old{
+
+
+    /* display flex se sare color box me fit ho jayenge  */
+    
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 800px;
+   height: 200px;
+   width: 50%;
+   background-color: rgb(54, 143, 143);
+ margin: 100x;;
+   border: 2px solid black;
+
+}

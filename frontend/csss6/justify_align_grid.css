@@ -1,0 +1,38 @@
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(209, 105, 105);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    grid-template-rows:repeat(2,1fr); 
+ grid-gap: 10px 20px;
+  /* ye sare box ko horzotally center me lae ayega */
+ 
+  justify-items: center;
+   /* ye sare box ko vertically  center me lae ayega */
+  
+   align-items: center;
+}
+
+#first{
+
+    /* ye sirf first box ko vertically end me le ayega  */
+
+    align-self: end;
+
+    /* ye sirf first box ko horzontally end me le ayega */
+    justify-self: end;
+}
+
+
+
+
+.item {
+
+    width: 100px;
+    height: 50px;
+    background-color: olive;
+    border: 2px solid black;
+    text-align: center;
+    
+}

@@ -1,0 +1,13 @@
+.container {
+    transform: translate(-50%, -50%);
+    background-color: rgb(233, 213, 213);
+    font-style: italic;
+    color: hsl(5, 100%, 48%);
+    border-radius: 10px;
+    border: 2px solid rgb(246, 8, 8);
+    width: 50vw;
+    box-shadow: 5px 5px 10px rgba(189, 80, 80, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

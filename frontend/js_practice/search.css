@@ -1,0 +1,46 @@
+#main{
+     width: 100%;
+     height: 100%;
+     background-color: #f1f1f1;
+
+}
+
+.container{
+    padding: 10vw  25vw;
+}
+input{
+    width:100%;
+    padding: 12px 22px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    border :1px solid #dadada;
+    outline-color: royalblue;
+}
+.img{
+    width:7vw;
+    height: 7vw;
+    border: 2px solid #dadada;
+    border-color:  crimson;
+    background-color: red;
+    overflow: hidden;
+}
+.img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.person{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.people{
+    margin-top: 20px;
+    display:flex ;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,37 @@
+.foodlist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .foodItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .foodName {
+    flex-grow: 1; /* Ensures the text takes available space */
+    font-style: italic;
+    font-size: 18px;
+    color: darkred;
+  }
+  
+  .buyButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: darkred;
+  }
+  .bought {
+    background-color: lightgreen; /* Buy hone par background color change */
+  }
+  

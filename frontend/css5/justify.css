@@ -1,0 +1,98 @@
+#container{
+    height: 300px;
+    width: 50%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+
+}
+
+#container1{
+   
+
+    /* row reverse laga diya ab main right tse start hoga left pe end hoga*/
+    
+    display: flex;
+    flex-direction:row-reverse ;
+   /* jsuttify ki help se apna main start se content bhi start hoga */
+  justify-content: flex-start;
+   width: 50%;
+   background-color: rgb(255, 255, 255);
+ margin: 100x;;
+   border: 2px solid black;
+
+}
+
+#container2{
+   
+
+    /* row reverse laga diya ab main right tse start hoga left pe end hoga*/
+    
+    display: flex;
+    flex-direction:row-reverse ;
+   /* jsuttify ki help se apna main ke end se content start hoga */
+  justify-content: flex-end;
+   width: 50%;
+   background-color: rgb(255, 255, 255);
+ margin: 100x;;
+   border: 2px solid black;
+
+}
+#container3{
+   
+
+    /* row reverse laga diya ab main right tse start hoga left pe end hoga*/
+    
+    display: flex;
+    flex-direction:row-reverse ;
+   /* jsuttify ki help se apne main or content ka start end same rahega but center me ajeyga sarra content*/
+  justify-content: center;
+   width: 50%;
+   background-color: rgb(255, 255, 255);
+ margin: 100x;;
+   border: 2px solid black;
+}
+#container4{
+   
+
+    /* row reverse laga diya ab main right tse start hoga left pe end hoga*/
+    
+    display: flex;
+    flex-direction:row-reverse ;
+   /* jsuttify  space between ke ki help jitni extera space hai vo element ke beech chali jayegi */
+  justify-content: space-between;
+   width: 50%;
+   background-color: rgb(255, 255, 255);
+ margin: 100x;;
+   border: 2px solid black;
+}
+
+#container5{
+   
+
+    /* row reverse laga diya ab main right tse start hoga left pe end hoga*/
+    
+    display: flex;
+    flex-direction:row-reverse ;
+   /* jsuttify  space around ke ki help jitni extera space hai vo element ke aage picche distribute hojayegi chali jayegi */
+  justify-content: space-around;
+   width: 50%;
+   background-color: rgb(255, 255, 255);
+ margin: 100x;;
+   border: 2px solid black;
+}
+
+#container6{
+   
+
+    /* row reverse laga diya ab main right tse start hoga left pe end hoga*/
+    
+    display: flex;
+    flex-direction:row-reverse ;
+   /* jsuttify  space evennly ke ki help jitni extera space hai vo element ke aage picche  equally  distribute hojayegi chali jayegi */
+  justify-content: space-evenly;
+   width: 50%;
+   background-color: rgb(255, 255, 255);
+ margin: 100x;;
+   border: 2px solid black;
+}

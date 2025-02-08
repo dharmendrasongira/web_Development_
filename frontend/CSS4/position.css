@@ -1,0 +1,40 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+
+#static{
+    background-color: rgb(51, 119, 178);
+    position: static;
+    top :100px;
+
+}
+
+#relative{
+    background-color: aliceblue;
+    position: relative;
+    top :20px;
+    left:20px;
+
+}
+#absolute{
+    background-color: rgb(236, 74, 163);
+    position: absolute;
+    top :20px;
+    left:20px;
+
+}
+
+#fixed{
+    background-color: rgba(115, 180, 46, 0.889);
+    position: fixed;
+    top :50px;
+    left: 50px;
+
+}

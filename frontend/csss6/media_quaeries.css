@@ -1,0 +1,40 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+div{
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+/* exact 400 pe */
+@media(width:400px ) {
+  h1{  background-color: pink;}
+}
+
+/* 500 or usse upper pe karne ke liye likha hai min ka maatlab esse upper wali pe yahi apply hogaa */
+@media(min-width:500px ) {
+    h1{  background-color: pink;}
+    div{  
+background-color: aquamarine;
+    }
+  }
+  
+
+  /* 400 or usse kam pe karne ke liye likha hai max ka maatlab esse nicche wali pe yahi apply hoga*/
+  @media(max-width:399px ) {
+    h1{  background-color: rgb(195, 28, 55);}
+    div{  
+background-color: rgb(29, 26, 227);
+    }
+  }
+
+  @media (min-width: 401px) and (max-width: 499px) {
+    h1 {
+        background-color: rgb(22, 255, 38);
+    }
+    div {
+        background-color: rgb(17, 5, 1);
+    }
+}

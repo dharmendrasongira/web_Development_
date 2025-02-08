@@ -1,0 +1,52 @@
+div{
+    height: 200px;
+    background-color: aquamarine;
+    width: 500px;
+
+}
+#a1{ border-width: 5px;
+    border-color: rgb(5, 21, 235);
+    /* border-style:groove ;
+margin use karte div or div ke becchke distance ke liye hota hai baahr ki distance ke liye use hota hai
+     */
+      margin-left: 50px;
+      margin-top: 50px;
+margin-bottom: 50px;
+}
+/* boder shortcut */
+#a2{
+    border:5px pink dotted;
+    /* margin use karte div or div ke becchke distance ke liye hota hai baahr ki distance ke liye use hota hai */      margin: left 50px;
+    margin-top: 50px;
+          margin-left :50px;
+margin-bottom: 50px;}
+h1{
+    border-left-color:cadetblue;
+    border-right-color: red;
+    border-top-color: hotpink;
+    border-bottom-color:blue ;
+    border-width: 50px;
+    border-style: solid;
+/*      
+    border radius edge ko gool karne karte */
+
+    border-radius: 50px;
+
+    /* ap indiviuaL BORDER corner ko style kar skte hAU */
+    border-BOTTOM-left-radius: 10px;
+     
+    /* padding word or border or content ke becch ki gap ko bolte hai */
+
+    padding-left: 700px;
+    padding-right: 700px;
+  
+}
+
+button{
+    /* for all side padding  */
+    padding: 20px;
+    border-width:20px ;
+    border-radius: 50px;
+    background-color: blue;
+     
+}

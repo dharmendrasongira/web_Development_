@@ -1,0 +1,19 @@
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+.one{
+
+    background-color: aqua;
+    /* agar postion default or static hue toh z index value ka koi matlab nahi raega */
+    position: relative;
+    z-index: 1;
+}
+.two{
+background-color: darksalmon;
+position: relative;
+bottom: 50px;
+
+}

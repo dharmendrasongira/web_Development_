@@ -1,0 +1,14 @@
+/* Main.module.css */
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    background: pink;
+}
+.content{
+    margin-top: 20px;
+    padding: 20px;
+    background: lightblue;
+
+}

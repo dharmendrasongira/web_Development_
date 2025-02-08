@@ -1,0 +1,21 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+div{
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+@media (orientation:landscape) {
+   h1{ background-color: pink;}
+   div{ background-color: aqua;}
+    
+}
+
+@media (orientation:portrait) {
+    h1{ background-color: rgb(233, 214, 217);}
+    div{ background-color: rgb(204, 215, 215);}
+     
+ }
